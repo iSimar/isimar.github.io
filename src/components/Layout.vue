@@ -39,6 +39,11 @@ export default {
   padding-left: 10px;
   padding-right: 10px;
 }
+@media (max-width: 728px) {
+  .container .left {
+    display: none;
+  }
+}
 
 .container .right {
   flex: 1;

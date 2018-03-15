@@ -57,9 +57,34 @@ Nam eu velit ac quam sollicitudin malesuada nec a nisi. Vestibulum gravida leo i
   .container {
   	display: flex;
     flex-direction: column;
-    padding-right: 50%;
+    padding-right: 30px;
     padding-top: 20px;
     overflow-y: scroll;
+  }
+  @media (max-width: 2024px) {
+    .container {
+      padding-right: 50%;
+    }
+  }
+  @media (max-width: 1624px) {
+    .container {
+      padding-right: 30%;
+    }
+  }
+  @media (max-width: 1324px) {
+    .container {
+      padding-right: 25%;
+    }
+  }
+  @media (max-width: 1024px) {
+    .container {
+      padding-right: 20%;
+    }
+  }
+  @media (max-width: 964px) {
+    .container {
+      padding-right: 30px;
+    }
   }
   .title {
     border-bottom: 1px solid #ddd;
