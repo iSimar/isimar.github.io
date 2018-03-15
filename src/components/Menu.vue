@@ -36,5 +36,6 @@ export default {}
   }
   .container .link{
     padding-top: 10px;
+    color: #42b983;
   }
 </style>
