@@ -4,17 +4,17 @@
       <h3>Simar's Blog</h3>
     </li>
     <li class="link">
-      <a>
+      <a href="/">
         Posts
       </a>
     </li>
     <li class="link">
-      <a>
+      <a href="https://github.com/iSimar" target="_blank">
         GitHub
       </a>
     </li>
     <li class="link">
-      <a>
+      <a href="https://twitter.com/isimar36" target="_blank">
         Twitter
       </a>
     </li>
@@ -31,11 +31,14 @@ export default {}
     flex-direction: column;
     padding-top: 60px;
   }
-  .container .title h3{
+  .container .title h3 {
     margin: 0;
   }
-  .container .link{
+  .container .link {
     padding-top: 10px;
+  }
+  .container .link a{
     color: #42b983;
+    text-decoration: none;
   }
 </style>

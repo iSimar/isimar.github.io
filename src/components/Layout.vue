@@ -42,9 +42,7 @@ export default {
 
 .container .right {
   flex: 1;
-  padding-top: 30px;
   padding-left: 30px;
-  padding-right: 30px;
 }
 
 </style>
