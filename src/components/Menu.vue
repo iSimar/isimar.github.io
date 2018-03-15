@@ -29,7 +29,13 @@ export default {}
   .container {
     list-style: none;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 80px;
+    padding-left: 65px;
+  }
+  @media (max-width: 964px) {
+    .container {
+      padding-left: 60px;
+    }
   }
   .container .title h3 {
     margin: 0;

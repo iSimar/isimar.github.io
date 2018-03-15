@@ -34,10 +34,12 @@ export default {
 }
 
 .container .left {
-  width: 200px;
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  min-width: 215px;
+}
+@media (max-width: 964px) {
+  .container .left {
+    min-width: 200px;
+  }
 }
 @media (max-width: 728px) {
   .container .left {
@@ -47,7 +49,6 @@ export default {
 
 .container .right {
   flex: 1;
-  padding-left: 30px;
 }
 
 </style>

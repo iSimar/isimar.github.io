@@ -57,6 +57,7 @@ Nam eu velit ac quam sollicitudin malesuada nec a nisi. Vestibulum gravida leo i
   .container {
   	display: flex;
     flex-direction: column;
+    padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
     overflow-y: scroll;
@@ -68,7 +69,7 @@ Nam eu velit ac quam sollicitudin malesuada nec a nisi. Vestibulum gravida leo i
   }
   @media (max-width: 1624px) {
     .container {
-      padding-right: 30%;
+      padding-right: 40%;
     }
   }
   @media (max-width: 1324px) {
@@ -84,6 +85,14 @@ Nam eu velit ac quam sollicitudin malesuada nec a nisi. Vestibulum gravida leo i
   @media (max-width: 964px) {
     .container {
       padding-right: 30px;
+    }
+  }
+  @media (max-width: 724px) {
+    .container {
+      overflow-y: visible;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 0px;
     }
   }
   .title {
