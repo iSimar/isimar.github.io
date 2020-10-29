@@ -3,9 +3,14 @@
     <li class="title">
       <h3>Simar's Blog</h3>
     </li>
+    <li class="image">
+      <img src="https://avatars0.githubusercontent.com/u/5649414?s=460&u=7159a8965c4206f86ae33ca558f942248bee4fcd&v=4"
+          style="border-radius: 50%; margin-top: 20px; margin-bottom: 20px;"
+          height="100px" />
+    </li>
     <li class="link">
       <a href="/">
-        Posts
+        Blog Posts
       </a>
     </li>
     <li class="link">
@@ -14,8 +19,23 @@
       </a>
     </li>
     <li class="link">
-      <a href="https://twitter.com/isimar36" target="_blank">
+      <a href="https://twitter.com/simartweets" target="_blank">
         Twitter
+      </a>
+    </li>
+    <li class="link">
+      <a href="https://www.linkedin.com/in/singhsimarpreet" target="_blank">
+        LinkedIn
+      </a>
+    </li>
+    <li class="link">
+      <a href="https://drive.google.com/file/d/1s7N9GJfHmD8VdwuRqJDIzHvnhuXa2z6s/view?usp=sharing" target="_blank">
+        Resume
+      </a>
+    </li>
+    <li class="link" style="font-size: 12px; margin-top: 80px;">
+      <a href="https://github.com/iSimar/isimar.github.io" target="_blank">
+        This is a Vue.js app
       </a>
     </li>
   </ul>
@@ -46,5 +66,6 @@ export default {}
   .container .link a{
     color: #42b983;
     text-decoration: none;
+    font-weight: bold;
   }
 </style>

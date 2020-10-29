@@ -10,7 +10,7 @@
       </vue-content-loading>
     </div>
     <div class="metadata">
-      <span class="date">
+      <!-- <span class="date">
         <timeago v-if="post.date" :since="post.date" :auto-update="10"></timeago>
         <vue-content-loading v-else-if="pastInitalDelay"
         :height="loader.date.height"
@@ -18,7 +18,7 @@
         :secondary="loader.date.secondary">
           <rect x="0" y="0" rx="4" ry="4" width="60" height="8" />
         </vue-content-loading>
-      </span>
+      </span> -->
     </div>
     <div class="markdown-container">
       <vue-markdown v-if="post.content" :source="post.content"></vue-markdown>
@@ -70,21 +70,22 @@ export default {
     }
    },
    mounted () {
-	setTimeout(() => {
-		this.$set(this, 'pastInitalDelay', true);
-	}, 1000)
-	fetch("https://raw.githubusercontent.com/iSimar/Posts/master/test.md")
-	.then((res) => {
-		res.text()
-		.then((text) => {
-			this.$set(this, 'pastInitalDelay', true);
-			this.$set(this, 'post', {
-				title: 'Lorem Ipsum is not simply random text',
-				date: new Date(),
-				content: text
-			})
-		})
-	})
+    setTimeout(() => {
+      this.$set(this, 'pastInitalDelay', true);
+    }, 1000);
+    var title = "First Post";
+    fetch(`https://raw.githubusercontent.com/iSimar/Posts/master/${title.toLowerCase().replace(" ", "_")}.md`)
+    .then((res) => {
+      res.text()
+      .then((text) => {
+        this.$set(this, 'pastInitalDelay', true);
+        this.$set(this, 'post', {
+          title: title,
+          date: new Date(),
+          content: text
+        })
+      })
+    })
   }
 }
 </script>
