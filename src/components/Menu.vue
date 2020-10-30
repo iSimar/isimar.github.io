@@ -4,7 +4,7 @@
       <h3>Simar's Blog</h3>
     </li>
     <li class="image">
-      <img src="https://avatars0.githubusercontent.com/u/5649414?s=460&u=7159a8965c4206f86ae33ca558f942248bee4fcd&v=4"
+      <img src="https://avatars2.githubusercontent.com/u/5649414?s=460&u=3cf00d716bb7b6e1f1b2dacd7ecb74653442c19a&v=4"
           style="border-radius: 50%; margin-top: 20px; margin-bottom: 20px;"
           height="100px" />
     </li>
