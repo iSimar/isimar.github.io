@@ -29,7 +29,7 @@
       </a>
     </li>
     <li class="link">
-      <a href="https://drive.google.com/file/d/1s7N9GJfHmD8VdwuRqJDIzHvnhuXa2z6s/view?usp=sharing" target="_blank">
+      <a href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1eeI-cX9qyDw9XqcHit_KOHHsItsUhHUEYtLGlG_Aju0/export?format=pdf" target="_blank">
         Resume
       </a>
     </li>
