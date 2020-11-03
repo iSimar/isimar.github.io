@@ -29,7 +29,7 @@
       </a>
     </li>
     <li class="link">
-      <a href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1eeI-cX9qyDw9XqcHit_KOHHsItsUhHUEYtLGlG_Aju0/export?format=pdf" target="_blank">
+      <a href="https://simarsingh.com/resume" target="_blank">
         Resume
       </a>
     </li>
