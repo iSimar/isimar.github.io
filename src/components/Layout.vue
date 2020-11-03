@@ -43,7 +43,10 @@ export default {
 }
 @media (max-width: 728px) {
   .container .left {
-    display: none;
+    /* flex-direction: row; */
+  }
+  .container {
+    flex-direction: column;
   }
 }
 
