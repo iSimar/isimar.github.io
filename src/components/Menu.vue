@@ -11,11 +11,11 @@
       </li>
     </div>
     <div class="links">
-      <li class="link">
+      <!-- <li class="link">
         <a href="/">
           Blog Posts
         </a>
-      </li>
+      </li> -->
       <li class="link">
         <a href="https://github.com/iSimar" target="_blank">
           GitHub
