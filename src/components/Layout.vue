@@ -4,8 +4,8 @@
       <Menu :onClickMenuLink="onClickMenuLink"></Menu>
     </div>
     <div class="right">
-      <Post v-if="view === 'posts'" ></Post>
       <WorkLog v-if="view === 'worklog'" ></WorkLog>
+      <Post v-else></Post>
     </div>
   </div>
 </template>
@@ -30,6 +30,11 @@ export default {
     Menu,
     Post,
     WorkLog
+  },
+  beforeMount: function () {
+    if (window.location.pathname != "/") {
+      this.view = window.location.pathname.split("/")[1];
+    }
   }
 }
 </script>
