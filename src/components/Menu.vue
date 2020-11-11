@@ -12,7 +12,7 @@
     </div>
     <div class="links">
       <li class="link">
-        <a v-on:click="onClickMenuLink('posts')" href="#">
+        <a href="/">
           Posts
         </a>
       </li>
@@ -37,7 +37,7 @@
         </a>
       </li>
       <li class="link">
-        <a v-on:click="onClickMenuLink('worklog')" href="#">
+        <a href="/worklog">
           Work Log
         </a>
       </li>
