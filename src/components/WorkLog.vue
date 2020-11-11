@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      Work Log is a log of tasks I completed on day to day basis.
+      Work Log is a log of tasks I completed on daily basis.
       <br/><br/>
       <input type="password" class="inputBox" id="exampleInputPassword1" placeholder="Password to view work log">
       <br/>
