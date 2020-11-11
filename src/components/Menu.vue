@@ -80,9 +80,13 @@ export default {
     .container .links {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
     }
     .container .links .link {
       padding-right: 15px;
+    }
+    .container .links .link:nth-child(6n) {
+      flex-basis: 100%;
     }
     .container .image,
     .container .thisApp {
