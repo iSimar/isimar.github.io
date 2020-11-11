@@ -1,10 +1,11 @@
 <template>
   <div class="container">
     <div class="left">
-      <Menu></Menu>
+      <Menu :onClickMenuLink="onClickMenuLink"></Menu>
     </div>
     <div class="right">
-      <Post></Post>
+      <Post v-if="view === 'posts'" ></Post>
+      <WorkLog v-if="view === 'worklog'" ></WorkLog>
     </div>
   </div>
 </template>
@@ -12,11 +13,23 @@
 <script>
 import Menu from './Menu.vue'
 import Post from './Post.vue'
+import WorkLog from './WorkLog.vue'
 
 export default {
+  data: function () {
+    return {
+      view: 'posts'
+    }
+  },
+  methods: {
+    onClickMenuLink(view) {
+      this.view = view
+    }
+  },
   components: {
     Menu,
-    Post
+    Post,
+    WorkLog
   }
 }
 </script>

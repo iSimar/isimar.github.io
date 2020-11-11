@@ -11,11 +11,11 @@
       </li>
     </div>
     <div class="links">
-      <!-- <li class="link">
-        <a href="/">
-          Blog Posts
+      <li class="link">
+        <a v-on:click="onClickMenuLink('posts')" href="#">
+          Posts
         </a>
-      </li> -->
+      </li>
       <li class="link">
         <a href="https://github.com/iSimar" target="_blank">
           GitHub
@@ -36,6 +36,11 @@
           Resume
         </a>
       </li>
+      <li class="link">
+        <a v-on:click="onClickMenuLink('worklog')" href="#">
+          Work Log
+        </a>
+      </li>
       <li class="link thisApp">
         <a href="https://github.com/iSimar/isimar.github.io" target="_blank">
           This is a Vue.js app
@@ -46,7 +51,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    onClickMenuLink: { type: Function },
+  }
+}
 </script>
 
 <style scoped>
